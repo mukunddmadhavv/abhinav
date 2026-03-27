@@ -15,7 +15,7 @@ function FloatingContactBar({ enquiryHref }) {
           href={enquiryHref}
           target="_blank"
           rel="noreferrer"
-          className="flex flex-1 items-center justify-center gap-2 rounded-full bg-[#25D366] px-4 py-3 text-sm font-bold text-ink transition hover:opacity-90"
+          className="flex flex-1 items-center justify-center gap-2 rounded-full bg-sand px-4 py-3 text-sm font-bold text-ink transition hover:bg-amber"
         >
           <MessageCircle className="h-4 w-4" />
           WhatsApp

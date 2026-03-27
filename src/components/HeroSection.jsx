@@ -30,7 +30,7 @@ function HeroSection({ enquiryHref }) {
               href={enquiryHref}
               target="_blank"
               rel="noreferrer"
-              className="inline-flex items-center justify-center gap-2 rounded-full bg-[#25D366] px-6 py-4 text-sm font-bold text-ink transition hover:opacity-90"
+              className="inline-flex items-center justify-center gap-2 rounded-full bg-sand px-6 py-4 text-sm font-bold text-ink transition hover:bg-amber"
             >
               <MessageCircle className="h-4 w-4" />
               Send Enquiry

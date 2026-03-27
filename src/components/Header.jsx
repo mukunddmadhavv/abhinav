@@ -45,7 +45,7 @@ function Header({ enquiryHref }) {
             href={enquiryHref}
             target="_blank"
             rel="noreferrer"
-            className="inline-flex items-center gap-2 rounded-full bg-[#25D366] px-5 py-3 text-sm font-semibold text-ink transition hover:opacity-90"
+            className="inline-flex items-center gap-2 rounded-full bg-sand px-5 py-3 text-sm font-semibold text-ink transition hover:bg-amber"
           >
             <MessageCircle className="h-4 w-4" />
             Enquire Today

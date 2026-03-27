@@ -52,7 +52,7 @@ function ContactSection() {
         />
 
         <div className="mt-12 grid gap-8 lg:grid-cols-[0.9fr_1.1fr]">
-          <div className="rounded-[2rem] bg-ink p-6 text-white shadow-glow sm:p-8">
+          <div className="rounded-[2rem] bg-steel p-6 text-white shadow-glow sm:p-8">
             <h3 className="font-display text-3xl font-bold">Business Details</h3>
             <p className="mt-4 text-sm leading-7 text-white/70">
               A clear, premium contact area builds confidence and helps serious
@@ -113,7 +113,7 @@ function ContactSection() {
             <div className="mt-8 flex flex-col gap-4 sm:flex-row">
               <a
                 href="tel:+919569555234"
-                className="inline-flex items-center justify-center rounded-full bg-sand px-5 py-3 text-sm font-bold text-ink transition hover:bg-[#f0d1a4]"
+                className="inline-flex items-center justify-center rounded-full bg-sand px-5 py-3 text-sm font-bold text-ink transition hover:bg-amber"
               >
                 Call Now
               </a>
@@ -121,7 +121,7 @@ function ContactSection() {
                 href={defaultWhatsAppMessage()}
                 target="_blank"
                 rel="noreferrer"
-                className="inline-flex items-center justify-center rounded-full border border-white/15 px-5 py-3 text-sm font-bold text-white transition hover:border-[#25D366] hover:text-[#25D366]"
+                className="inline-flex items-center justify-center rounded-full border border-white/15 px-5 py-3 text-sm font-bold text-white transition hover:border-sand hover:text-sand"
               >
                 WhatsApp Enquiry
               </a>
