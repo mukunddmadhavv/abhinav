@@ -8,8 +8,8 @@ function AboutSection() {
         <div>
           <SectionHeading
             eyebrow="About the Firm"
-            title="ABHINAV TRADERS is built around straightforward service and easy business communication."
-            description="The page highlights what matters most for a cement wholesaler: clear contact details, a dependable local presence, and fast access for customers who need supply support."
+            title="ABHINAV TRADERS: focused on cement wholesale."
+            description="Local, dependable supply with direct communication."
           />
         </div>
 

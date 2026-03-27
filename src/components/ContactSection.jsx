@@ -46,18 +46,15 @@ function ContactSection() {
       <div className="mx-auto max-w-7xl">
         <SectionHeading
           eyebrow="Contact & Enquiry"
-          title="Make it effortless for customers to connect with ABHINAV TRADERS."
-          description="Visitors can call, chat on WhatsApp, or open the location from the same page."
+          title="Connect with ABHINAV TRADERS."
+          description="Call or message on WhatsApp to place your cement enquiry."
           align="center"
         />
 
         <div className="mt-12 grid gap-8 lg:grid-cols-[0.9fr_1.1fr]">
           <div className="rounded-[2rem] bg-steel p-6 text-white shadow-glow sm:p-8">
             <h3 className="font-display text-3xl font-bold">Business Details</h3>
-            <p className="mt-4 text-sm leading-7 text-white/70">
-              A clear, premium contact area builds confidence and helps serious
-              buyers reach out without delay.
-            </p>
+            <p className="mt-4 text-sm leading-7 text-white/70">Direct contact, no steps wasted.</p>
 
             <div className="mt-8 space-y-4">
               {contactDetails.map((detail) => {

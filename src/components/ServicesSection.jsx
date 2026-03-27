@@ -7,8 +7,8 @@ function ServicesSection() {
       <div className="mx-auto max-w-7xl">
         <SectionHeading
           eyebrow="Services"
-          title="Professional cement supply presentation for wholesale, retail, and project enquiries."
-          description="Each section helps visitors understand the business quickly, from supply support and communication speed to contact channels and location details."
+          title="Cement supply made simple."
+          description="Bulk orders, dealer support, and quick enquiry handling."
           align="center"
         />
 

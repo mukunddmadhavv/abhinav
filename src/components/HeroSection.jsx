@@ -17,12 +17,10 @@ function HeroSection({ enquiryHref }) {
             Trusted Local Cement Supply
           </span>
           <h1 className="mt-6 max-w-3xl font-display text-4xl font-bold leading-tight sm:text-5xl lg:text-7xl">
-            Dependable cement wholesale support for dealers, contractors, and project buyers.
+            Cement wholesaler for fast, reliable supply.
           </h1>
-          <p className="mt-6 max-w-2xl text-base leading-8 text-white/72 sm:text-lg">
-            ABHINAV TRADERS is a Deoria-based cement wholesaler focused on easy
-            communication, prompt enquiry handling, and a simple path from
-            requirement to contact.
+          <p className="mt-6 max-w-2xl text-base leading-7 text-white/72 sm:text-lg">
+            Deoria-based. Quick replies. Straight to WhatsApp for enquiries.
           </p>
 
           <div className="mt-8 flex flex-col gap-4 sm:flex-row">

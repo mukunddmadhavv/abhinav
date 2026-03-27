@@ -1,4 +1,3 @@
-import AboutSection from "./components/AboutSection";
 import ContactSection from "./components/ContactSection";
 import FloatingContactBar from "./components/FloatingContactBar";
 import Footer from "./components/Footer";
@@ -6,7 +5,7 @@ import Header from "./components/Header";
 import HeroSection from "./components/HeroSection";
 import PromoStrip from "./components/PromoStrip";
 import ServicesSection from "./components/ServicesSection";
-import WhyChooseSection from "./components/WhyChooseSection";
+import BrandMarquee from "./components/BrandMarquee";
 import { defaultWhatsAppMessage } from "./utils/whatsapp";
 
 function App() {
@@ -19,9 +18,8 @@ function App() {
       <main>
         <HeroSection enquiryHref={enquiryHref} />
         <PromoStrip />
-        <AboutSection />
+        <BrandMarquee />
         <ServicesSection />
-        <WhyChooseSection />
         <ContactSection />
       </main>
 

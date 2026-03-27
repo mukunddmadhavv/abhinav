@@ -7,8 +7,8 @@ function WhyChooseSection() {
       <div className="mx-auto max-w-7xl">
         <SectionHeading
           eyebrow="Why Choose ABHINAV TRADERS"
-          title="A straightforward wholesale partner for buyers who value clarity, reachability, and quick response."
-          description="The website is structured to highlight practical strengths that matter in B2B and project-focused buying conversations."
+          title="Clear, reachable, responsive."
+          description="Quick contact, trusted supply, simple next steps."
           invert
         />
 

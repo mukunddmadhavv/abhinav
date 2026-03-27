@@ -27,45 +27,41 @@ export const serviceCards = [
   {
     icon: Truck,
     title: "Bulk Cement Supply",
-    description:
-      "Dependable supply support for projects, retailers, contractors, and recurring site requirements.",
+    description: "Reliable loads for sites and stores.",
   },
   {
     icon: Building2,
     title: "Trade & Dealer Support",
-    description:
-      "A professional partner for local stores, distributors, and construction-focused buying teams.",
+    description: "Easy coordination with dealers and shops.",
   },
   {
     icon: Clock3,
     title: "Responsive Enquiry Handling",
-    description:
-      "Fast communication for pricing requests, delivery discussions, and order coordination.",
+    description: "Prompt replies on price and delivery.",
   },
   {
     icon: WalletCards,
     title: "Simple Buying Experience",
-    description:
-      "Straightforward conversations, clear details, and convenient contact channels for every enquiry.",
+    description: "Clear details and quick confirmations.",
   },
 ];
 
 export const aboutCards = [
   {
     title: "Bulk Requirement Focus",
-    text: "Positioned for dealers, contractors, and project buyers who need direct wholesale communication.",
+    text: "Built for dealer, contractor, and project orders.",
   },
   {
     title: "Local Market Presence",
-    text: "Deoria location details are easy to find, helping nearby buyers connect with confidence.",
+    text: "Deoria-based for quick regional response.",
   },
   {
     title: "Responsive Everywhere",
-    text: "Customers can browse, call, and enquire smoothly on phones, tablets, and desktops.",
+    text: "Smooth experience on phone or desktop.",
   },
   {
     title: "Fast Contact Access",
-    text: "Phone numbers, email, and enquiry options stay visible so buyers can act quickly.",
+    text: "Phone and WhatsApp always visible.",
   },
 ];
 
@@ -73,17 +69,17 @@ export const advantages = [
   {
     icon: ShieldCheck,
     title: "Clear Business Identity",
-    text: "Customers immediately understand the firm name, business category, and how to start the conversation.",
+    text: "Straightforward cement wholesale.",
   },
   {
     icon: CheckCircle2,
     title: "Easy To Reach",
-    text: "Phone numbers, email, and address are presented in a direct, no-confusion format for faster contact.",
+    text: "Phone and WhatsApp upfront.",
   },
   {
     icon: Truck,
     title: "Focused on Action",
-    text: "Visitors can move quickly from browsing to calling, enquiring, or opening the location on maps.",
+    text: "Move from viewing to ordering fast.",
   },
 ];
 
@@ -91,17 +87,17 @@ export const processSteps = [
   {
     step: "01",
     title: "Share Your Requirement",
-    text: "Tell us the order size, location, and project or store requirement through the enquiry form or by phone.",
+    text: "Send quantity and location on WhatsApp or call.",
   },
   {
     step: "02",
     title: "Confirm Details",
-    text: "We coordinate on quantity, communication, and the best next step for your requirement.",
+    text: "We align on pricing and timing.",
   },
   {
     step: "03",
     title: "Move Ahead Faster",
-    text: "With quick contact options and a focused process, buyers can move from enquiry to action smoothly.",
+    text: "Order moves forward without delays.",
   },
 ];
 
@@ -128,9 +124,9 @@ export const contactDetails = [
 ];
 
 export const trustStrip = [
-  "Bulk supply support for trade and project needs",
-  "Fast call and enquiry access from every screen size",
-  "Clear business details for confident decision-making",
+  "Bulk cement for trade and projects",
+  "Fast phone and WhatsApp replies",
+  "Clear details, quick confirmations",
 ];
 
 export const initialFormData = {

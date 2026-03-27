@@ -15,10 +15,10 @@ function Footer() {
 
         <div className="flex flex-col gap-2 text-sm text-white/70">
           <a href="tel:+919569555234" className="transition hover:text-sand">
-            9569555234
+            Number : 9569555234
           </a>
           <a href="tel:+919838075527" className="transition hover:text-sand">
-            9838075527
+            Number : 9838075527
           </a>
           <a
             href={defaultWhatsAppMessage()}
