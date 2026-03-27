@@ -8,11 +8,12 @@ function HeroSection({ enquiryHref }) {
       className="relative overflow-hidden bg-ink px-4 pb-16 pt-28 text-white sm:px-6 lg:px-8 lg:pb-24 lg:pt-36"
     >
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(77,163,255,0.24),transparent_30%),radial-gradient(circle_at_bottom_right,rgba(166,212,255,0.22),transparent_26%)]" />
+      <div className="absolute inset-0 bg-gradient-to-br from-sand/18 via-transparent to-transparent opacity-90" />
       <div className="absolute inset-0 bg-radial-grid bg-[size:22px_22px] opacity-20" />
       <div className="absolute left-1/2 top-0 h-[28rem] w-[28rem] -translate-x-1/2 rounded-full bg-sand/15 blur-3xl" />
 
       <div className="relative mx-auto grid max-w-7xl items-center gap-12 lg:grid-cols-[1.15fr_0.85fr]">
-        <div>
+        <div className="text-center lg:text-left">
           <span className="inline-flex items-center rounded-full border border-sand/30 bg-white/5 px-4 py-2 text-xs font-bold uppercase tracking-[0.28em] text-sand">
             Trusted Local Cement Supply
           </span>
@@ -23,12 +24,12 @@ function HeroSection({ enquiryHref }) {
             Deoria-based. Quick replies. Straight to WhatsApp for enquiries.
           </p>
 
-          <div className="mt-8 flex flex-col gap-4 sm:flex-row">
+          <div className="mt-8 flex flex-col gap-2 sm:flex-row sm:justify-center lg:justify-start sm:w-auto">
             <a
               href={enquiryHref}
               target="_blank"
               rel="noreferrer"
-              className="inline-flex items-center justify-center gap-2 rounded-full bg-sand px-6 py-4 text-sm font-bold text-ink transition hover:bg-amber"
+              className="inline-flex items-center justify-center gap-2 rounded-full bg-sand px-5 py-2.5 text-sm font-bold text-ink transition hover:bg-amber sm:min-w-[150px]"
             >
               <MessageCircle className="h-4 w-4" />
               Send Enquiry
@@ -36,13 +37,13 @@ function HeroSection({ enquiryHref }) {
             </a>
             <a
               href="tel:+919838075527"
-              className="inline-flex items-center justify-center rounded-full border border-white/15 px-6 py-4 text-sm font-bold text-white transition hover:border-sand hover:text-sand"
+              className="inline-flex items-center justify-center rounded-full border border-white/15 px-5 py-2.5 text-sm font-bold text-white transition hover:border-sand hover:text-sand sm:min-w-[150px]"
             >
               Call 9838075527
             </a>
           </div>
 
-          <div className="mt-10 grid gap-4 sm:grid-cols-3">
+          <div className="mt-10 grid gap-4 sm:grid-cols-3 lg:justify-start">
             {contactSummary.map((item) => (
               <div
                 key={item}

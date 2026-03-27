@@ -2,7 +2,7 @@ import { defaultWhatsAppMessage } from "../utils/whatsapp";
 
 function Footer() {
   return (
-    <footer className="bg-ink px-4 py-8 text-white sm:px-6 lg:px-8">
+    <footer className="bg-ink px-4 pb-24 pt-12 text-white sm:px-6 sm:pb-32 lg:px-8">
       <div className="mx-auto flex max-w-7xl flex-col gap-6 border-t border-white/10 pt-8 lg:flex-row lg:items-center lg:justify-between">
         <div>
           <p className="font-display text-2xl font-bold uppercase tracking-[0.12em] text-white">
